@@ -1,0 +1,30 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: lightblue;
+}
+h1{
+    color: white;
+}
+fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 540px;
+    border-color: lightgray;
+    border-radius: 8px;
+    height: 26px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.cabecalho{
+    background-color: darkblue;
+    padding: 3px;
+}
